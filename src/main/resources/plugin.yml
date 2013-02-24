@@ -1,0 +1,17 @@
+name: BowDisabler
+main: com.github.ucchyocean.bd.BowDisabler
+version: 1.0.0
+author: ucchy
+description: Bow Disabler Plugin.
+commands:
+  bowdisabler:
+    description: Bow Disabler Plugin Command.
+    aliases: bdis
+    usage: |
+           /<command> (on|off) - Disable or enable to use bow.
+    permission: bowdisabler
+    permission-message: You don't have permission "<permission>".
+permissions:
+  bowdisabler:
+    description: Use Bow Disabler Command Permission.
+    default: op
