@@ -18,10 +18,23 @@
       <artifactId>craftbukkit</artifactId>
       <version>1.4.7-R1.0</version>
     </dependency>
+    <dependency>
+    	<groupId>com.sk89q</groupId>
+    	<artifactId>WorldEdit</artifactId>
+    	<version>5.5.1</version>
+    </dependency>
+    <dependency>
+    	<groupId>com.sk89q</groupId>
+    	<artifactId>WorldGuard</artifactId>
+    	<version>5.7.1</version>
+    </dependency>
   </dependencies>
 
   <build>
     <finalName>${project.artifactId}</finalName>
   </build>
 
+  <properties>
+  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
 </project>

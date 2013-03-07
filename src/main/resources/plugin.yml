@@ -1,14 +1,17 @@
 name: BowDisabler
 main: com.github.ucchyocean.bd.BowDisabler
 version: 1.0.0
-author: ucchy
+author: [ucchy, owatakun]
 description: Bow Disabler Plugin.
+depend: [WorldGuard]
 commands:
   bowdisabler:
     description: Bow Disabler Plugin Command.
     aliases: bdis
     usage: |
            /<command> (on|off) - Disable or enable to use bow.
+           /<command> reload - Reload config.
+           /<command> world (on|off) - Disable or enable to use bow in the world.
     permission: bowdisabler
     permission-message: You don't have permission "<permission>".
 permissions:

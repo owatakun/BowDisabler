@@ -1,0 +1,6 @@
+Enable: true
+DisableOverWorld: false
+PlayerSendMessage: true
+ConsoleAlert: true
+DisableRegions:
+- example
