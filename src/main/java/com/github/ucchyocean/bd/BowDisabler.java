@@ -55,10 +55,12 @@ public class BowDisabler extends JavaPlugin implements Listener {
         if ( args.length >= 1 ) {
             if ( args[0].equalsIgnoreCase("on") ) {
                 getConfig().set("Enable", true);
+                saveConfig();
                 sender.sendMessage("弓の使用が無効になりました。");
                 return true;
             } else if ( args[0].equalsIgnoreCase("off") ) {
                 getConfig().set("Enable", false);
+                saveConfig();
                 sender.sendMessage("弓の使用が可能になりました。");
                 return true;
             } else if ( args[0].equalsIgnoreCase("reload") ) {
